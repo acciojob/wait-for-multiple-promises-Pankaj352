@@ -55,7 +55,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
    const tr2 = document.createElement("tr");
    td.textContent = "Total";
-   td.colSpan = 2;
+   td.colSpan = 1;
    const td2 = document.createElement("td");
    lastTime = Date.now();
    td2.textContent = (lastTime - startTime) / 1000;
